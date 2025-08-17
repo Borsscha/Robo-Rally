@@ -11,7 +11,7 @@
 
 ### 3. In this very long command, only change the part
 
-```/Users/lingyin/Java/javafx-sdk-24.0.1/lib``` into your own path to the library of javaFx
+```/Users/redelius/Java/javafx-sdk-24.0.1/lib``` into your own path to the library of javaFx
 
 # Aktuellester Zustand (23.Juli)
 
