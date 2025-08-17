@@ -1,4 +1,4 @@
-## How to use our JAR file
+## How to use JAR file
 
 ### Under the folder `final-jar`:
 
@@ -6,10 +6,13 @@
 
 ``` java -jar server-fat.jar ``` 
 
-### 2. then in new terminal, start client, you need to add some paths to javaFx, especially, because we also have very cool music^^:
-```--module-path /Users/lingyin/Java/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports=javafx.base/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.platform=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED```
+### 2. then in new terminal, start client, you need to add some paths to javaFx:
+```--module-path /Users/redelius/Java/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports=javafx.base/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.platform=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED```
+
 ### 3. In this very long command, only change the part
+
 ```/Users/lingyin/Java/javafx-sdk-24.0.1/lib``` into your own path to the library of javaFx
+
 # Aktuellester Zustand (23.Juli)
 
 ## 1. UI-Änderungen
@@ -29,11 +32,6 @@
 - Notwendige Javadoc-Kommentare wurden hinzugefügt.
 - Die Funktionen von ConveyorBelt- und Energy-Tiles wurden korrigiert.
 
-
-### Stand: 13. July
-- 1. Neuste Integration mit Zusammenarbeit von GUI und Backend (Version: Als Gegenspieler laufend in Backend): **Branch ``` AI-in-background```**
-- 2. Weiterer neue AI Funktionen(Version: AI start von UI mit Logger) sehe Branch **```GarLiz```**
-
 ### Branch ```BetaTest``` für aktuelle Zustand (08.July)
 Unter the folder beta-test you will see:
 - a ```jar```file for server
@@ -47,30 +45,14 @@ Unter the folder beta-test you will see:
     - Robots' movement can be showed in UI almost correctly
     - More than one game rounds can be played
 - To Be Continued:
-    - a smarter and more correct KI (KI is not fully correct so that we put it in branch ```ki-feature```separately)
+    - a smarter and more correct KI
     - correct reboot
     - Animations
     - UpgradeCards to be presented in UI
 
-### Stand: 29.Juni
-
 #### Umgesetzte Features:
 
-- Das **Zusammenarbeit von UI und Backend**:
-    - Login
-    - LobbyView wechseln
-    - Verbindungsverlust(Soft und Hard) checken
-    - ReadyStatus setzen
-    - Chating und Broadcasting
-    - PlayerList auf UI
-    - Map wählen, senden, auf UI anzeigen
-    - Sichere Fehlerbehandlung
-    - Game Starten Json kann erfolgreich an Spieler senden
-    - Spielerfeld, Randkarten + Register(``cardTest.java````
-
-**Zu Verbessrung**: Das UI sollte in weiterer Arbeit das Spiel korrekt inizialisieren.
-
-- **Das Backend Implementierung** (auf branch ```Milestone4```): mit der Ideee von Command-driven Development hat Backend folgende Fortschritte:
+Command-driven Development:
 
 Spielablauf:
 
