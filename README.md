@@ -1,93 +1,118 @@
-# RoboRally
+## How to use our JAR file
+
+### Under the folder `final-jar`:
+
+### 1. Start the server firstly:
+
+``` java -jar server-fat.jar ``` 
+
+### 2. then in new terminal, start client, you need to add some paths to javaFx, especially, because we also have very cool music^^:
+```--module-path /Users/lingyin/Java/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports=javafx.base/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.platform=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED```
+### 3. In this very long command, only change the part
+```/Users/lingyin/Java/javafx-sdk-24.0.1/lib``` into your own path to the library of javaFx
+# Aktuellester Zustand (23.Juli)
+
+## 1. UI-Änderungen
+
+- Die Benutzeroberfläche wurde überarbeitet und optisch verbessert.
+- Ein Fehler wurde behoben, bei dem bereits ausgewählte Karten erneut ausgewählt werden konnten.
+- Ein Timer wird nun im Spiel angezeigt.
+- Die Bewegungen der Roboter werden schrittweise visualisiert.
+- Die Ausrichtung der Roboter ist nun klar und deutlich sichtbar.
+- Die gesamte Darstellung wurde optisch aufgewertet.
+- Energy wird in UI angezeigt.
+- Verzögertes Ausspielen der Registerkarten.
+- Hintergrundmusik wird hinzugefügt.
+
+## 2. Gamelogik-Änderungen
+- System.out.print-Ausgaben wurden durch ein Logging-System ersetzt.
+- Notwendige Javadoc-Kommentare wurden hinzugefügt.
+- Die Funktionen von ConveyorBelt- und Energy-Tiles wurden korrigiert.
 
 
+### Stand: 13. July
+- 1. Neuste Integration mit Zusammenarbeit von GUI und Backend (Version: Als Gegenspieler laufend in Backend): **Branch ``` AI-in-background```**
+- 2. Weiterer neue AI Funktionen(Version: AI start von UI mit Logger) sehe Branch **```GarLiz```**
 
-## Getting started
+### Branch ```BetaTest``` für aktuelle Zustand (08.July)
+Unter the folder beta-test you will see:
+- a ```jar```file for server
+- a ```jar``` file for client
+- a ```README``` file with futher details.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### Stand: 06. July
+- Newly Added:
+    - All maps can be showed on UI successfully and almost correctly
+    - Cards can be played directly in UI
+    - Robots' movement can be showed in UI almost correctly
+    - More than one game rounds can be played
+- To Be Continued:
+    - a smarter and more correct KI (KI is not fully correct so that we put it in branch ```ki-feature```separately)
+    - correct reboot
+    - Animations
+    - UpgradeCards to be presented in UI
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+### Stand: 29.Juni
 
-## Add your files
+#### Umgesetzte Features:
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+- Das **Zusammenarbeit von UI und Backend**:
+    - Login
+    - LobbyView wechseln
+    - Verbindungsverlust(Soft und Hard) checken
+    - ReadyStatus setzen
+    - Chating und Broadcasting
+    - PlayerList auf UI
+    - Map wählen, senden, auf UI anzeigen
+    - Sichere Fehlerbehandlung
+    - Game Starten Json kann erfolgreich an Spieler senden
+    - Spielerfeld, Randkarten + Register(``cardTest.java````
 
-```
-cd existing_repo
-git remote add origin https://gitlab2.cip.ifi.lmu.de/redelius/roborally.git
-git branch -M main
-git push -uf origin main
-```
+**Zu Verbessrung**: Das UI sollte in weiterer Arbeit das Spiel korrekt inizialisieren.
 
-## Integrate with your tools
+- **Das Backend Implementierung** (auf branch ```Milestone4```): mit der Ideee von Command-driven Development hat Backend folgende Fortschritte:
 
-- [ ] [Set up project integrations](https://gitlab2.cip.ifi.lmu.de/redelius/roborally/-/settings/integrations)
+Spielablauf:
 
-## Collaborate with your team
+1. Anmelden
+   /helloServer <groupName> <isAi>             -> beispiel     /helloServer human false
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+2. Daten senden
+   /playerValues <playerName> <robot>          -> beispiel     /playerValues leaIstSoCool 1
 
-## Test and Deploy
+3. Status setzen
+   /setStatus <ifReady>                        -> beispiel     /setStatus true
 
-Use the built-in continuous integration in GitLab.
+4. Map auswählen
+   /selectMap <mapName>                        -> beispiel     /selectMap Dizzy Highway
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+* Setup Phase *
 
-***
+5. Starting Point wählen
+   /setStartingPoint <x> <y>                   -> beispiel     /setStartingPoint 2 3
 
-# Editing this README
+An dieser Stelle schickt der Server jedem automatisch seine 9. Karten
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+* Programming Phase *
 
-## Suggestions for a good README
+6. Karten auswählen
+   /selectedCard <cardName> <registerIndex>    -> beispiel     /selectedCard MoveI 0
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+Alle Karten namen:  MoveI, MoveII, MoveIII, PowerUp, Again, TurnLeft, TurnRight, BackUp, UTurn
 
-## Name
-Choose a self-explaining name for your project.
+* Activation Phase *
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+7. Karte ausspielen
+   /playCard <cardName>                        -> beispiel     /playCard MoveI
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Der Server verarbeitet die gespielte Karte und aktiviert alle Logics die damit verbunden sind und moved den Roboter auch auf dem
+Board wobei auch da jedes mal geprüft wird ob man auf einer SpecialTile steht und aktiviert dort auch effekte.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+Es gibt folgende Phasen
+- setUpPhase
+- programmingPhase
+- activationPhase
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Nach dem alle Spieler ihre Register gespielt haben, wechselt man wieder in die programmingPhase und dann wieder activationPhase.
+Dieser Loop geht solange bis ein Spieler die Siegesbedingung (Checkpoints erreicht) erreicht hat.

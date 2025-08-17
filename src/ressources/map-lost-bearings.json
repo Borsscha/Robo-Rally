@@ -1,0 +1,1036 @@
+{
+  "messageType": "GameStarted",
+  "messageBody": {
+    "energy": 5,
+    "gameMap": [
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "RestartPoint",
+            "isOnBoard": " Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "StartPoint",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "Antenna",
+            "isOnBoard": "Start A",
+            "orientations": ["top"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "StartPoint",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "StartPoint",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "Start A",
+            "orientations": ["top"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "StartPoint",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "StartPoint",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "Start A",
+            "orientations": ["bottom"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "StartPoint",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "Start A",
+            "speed": 1,
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "Start A",
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "Start A",
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "Start A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "Start A",
+            "speed": 1,
+            "orientations": ["right"]
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["left"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["bottom"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["left","top"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "PushPanel",
+            "isOnBoard": "1A",
+            "orientation": "left",
+            "registers": [0, 2, 4]
+          },
+          {
+            "type": "Checkpoint",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["bottom", "left"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["bottom"]
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Energy",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 2,
+            "orientations": ["bottom"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Gear",
+            "isOnBoard": "1A",
+            "orientations": ["counterclockwise"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Gear",
+            "isOnBoard": "1A",
+            "orientations": ["clockwise"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 2,
+            "orientations": ["top"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Energy",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["left"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Pit",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "1A",
+            "orientations": ["left"]
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["left"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "1A",
+            "orientations": ["left"]
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["right"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Pit",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["left"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["left"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Energy",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Gear",
+            "isOnBoard": "1A",
+            "orientations": ["clockwise"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["right"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Checkpoint",
+            "isOnBoard": "1A",
+            "count": 3
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["left"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Gear",
+            "isOnBoard": "1A",
+            "orientations": ["counterclockwise"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Energy",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["right"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Checkpoint",
+            "isOnBoard": "1A",
+            "count": 4
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Pit",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "1A",
+            "orientations": ["right"]
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["left"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Wall",
+            "isOnBoard": "1A",
+            "orientations": ["right"]
+          },
+          {
+            "type": "Laser",
+            "isOnBoard": "1A",
+            "orientations": ["right"],
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Pit",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Energy",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 2,
+            "orientations": ["bottom"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Gear",
+            "isOnBoard": "1A",
+            "orientations": ["clockwise"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          { "type": "Gear",
+            "isOnBoard": "1A",
+            "orientations": ["counterclockwise"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 2,
+            "orientations": ["top"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "Energy",
+            "isOnBoard": "1A",
+            "count": 2
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["top"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["top","right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "PushPanel",
+            "isOnBoard": "1A",
+            "orientation": "right",
+            "registers": [0, 2, 4]
+          },
+          {
+            "type": "Checkpoint",
+            "isOnBoard": "1A",
+            "count": 1
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["right","bottom"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["top"]
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["left"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          },
+          {
+            "type": "ConveyorBelt",
+            "isOnBoard": "1A",
+            "speed": 1,
+            "orientations": ["right"]
+          }
+        ],
+        [
+          { "type": "Empty",
+            "isOnBoard": "1A"
+          }
+        ]
+      ]
+    ]}}
+
+
