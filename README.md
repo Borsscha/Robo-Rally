@@ -6,10 +6,13 @@
 
 ``` java -jar server-fat.jar ``` 
 
-### 2. then in new terminal, start client, you need to add some paths to javaFx, especially, because we also have very cool music^^:
-```--module-path /Users/lingyin/Java/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports=javafx.base/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.platform=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED```
+### 2. then in new terminal, start client, you need to add some paths to javaFx:
+```--module-path /Users/redelius/Java/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports=javafx.base/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.platform=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED```
+
 ### 3. In this very long command, only change the part
+
 ```/Users/lingyin/Java/javafx-sdk-24.0.1/lib``` into your own path to the library of javaFx
+
 # Aktuellester Zustand (23.Juli)
 
 ## 1. UI-Änderungen
